@@ -2,6 +2,9 @@
   "name": "starting-project",
   "version": "1.0.0",
   "private": true,
+  "dependencies": {
+    "grunt": "^0.4.5"
+  },
   "devDependencies": {
     "grunt-angular-templates": "^1.0.3",
     "grunt-contrib-concat": "^0.5.1",
