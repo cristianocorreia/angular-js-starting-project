@@ -1,0 +1,14 @@
+{
+  "name": "findmore-2016",
+  "version": "0.0.1",
+  "authors": [
+    "Cristiano Correia <cristiano.correia@findmore.pt>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "latest",
+    "angular-ui-router": "~0.2.18",
+    "angular-inview": "~1.5.7",
+    "angular-sanitize": "~1.5.3"
+  }
+}

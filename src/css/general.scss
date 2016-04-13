@@ -1,0 +1,28 @@
+@mixin transform($transform) {-webkit-transform:$transform; -moz-transform:$transform; -ms-transform:$transform;
+  -o-transform:$transform; transform:$transform;}
+  
+@mixin transition($type, $time) {-webkit-transition:$type $time ease-in-out; -moz-transition:$type $time ease-in-out;
+    -ms-transition:$type $time ease-in-out;-o-transition:$type $time ease-in-out; transition:$type $time ease-in-out;}
+
+@mixin animation($name, $time, $type) {-webkit-animation:$name $time $type; -moz-animation:$name $time $type;
+      -ms-animation:$name $time $type;-o-animation:$name $time $type; animation:$name $time $type;}
+
+@mixin clearfix() {display: inline-block;
+    &:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover, &:focus, &:active {
+        text-decoration: none;
+    }
+}
+
+/**
+* COMMON SCSS
+*/
